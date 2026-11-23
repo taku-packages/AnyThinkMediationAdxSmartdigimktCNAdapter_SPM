@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/taku-packages/AnyThinkiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/kuying-ads/kuyingSDK_Spm", exact: "6.0.1")
+        .package(url: "https://github.com/kuying-ads/kuyingSDK_Spm", exact: "6.5.91")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkSmartdigimktCNAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/AnyThink_Release/iosnetwork_2/AnyThinkSmartdigimktCNAdapter/6.5.90.2.9/AnyThinkSmartdigimktCNAdapter-6.5.90.2.9.zip",
-            checksum: "2018e7e878c057e39027ef3a8564a581d0cb33927e7d0b9383a912b016213765"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/AnyThink_Release/iosnetwork_2/AnyThinkSmartdigimktCNAdapter/60591.2.10/AnyThinkSmartdigimktCNAdapter-60591.2.10.zip",
+            checksum: "f2cecb7b77df0197af1a924c34e33ef09d27e9c03fd1cc712510691290917765"
         ),
         .target(
             name: "AnyThinkMediationAdxSmartdigimktCNAdapterTarget",
